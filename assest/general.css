@@ -1,0 +1,445 @@
+.orizzontalemenu_new .pulsadd_menu2 {
+    position: absolute;
+    top: calc(50% - 15px);
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #0071f1;
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    box-shadow: 0px 10px 42px rgb(0 113 241 / 26%);
+    z-index: 11;
+}
+.orizzontalemenu_new .sub_pulsantiera {
+    z-index: 4;
+}
+.orizzontalemenu_new .menu_element_actions {
+    display: none;
+    font-family: 'Heebo', Arial, Helvetica, sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: white;
+    box-shadow: 0px 4px 73px 0px rgba(23, 30, 40, 0.23);
+    border-radius: 10px;
+    width: 158px;
+    bottom: 100%;
+    left: calc(50% - 79px);
+    z-index: 3;
+}
+.orizzontalemenu_new .sub_pulsantiera .menu_element_actions {
+    width: 102px;
+    left: calc(50% - 51px);
+    bottom: calc(100% + 6px);
+}
+.orizzontalemenu_new .sub_pulsantiera .layout_subnav .menu_element_actions {
+    left: -12px;
+}
+.orizzontalemenu_new .menu_element_actions:after {
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/round.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: bottom center;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+.orizzontalemenu_new .menu_element_actions > div {
+    cursor: pointer;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: .2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+}
+.orizzontalemenu_new .sub_pulsantiera .menu_element_actions > div {
+    width: 30px;
+    height: 30px;
+    background-size: 14px;
+} 
+.orizzontalemenu_new .menu_element_actions > div:hover {
+    background-color: #edf4fb;
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="edit"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/edit.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="link"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/link.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="submenu"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus-circle.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="delete"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/trash.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="edit"]:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/edit_active.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="link"]:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/link_active.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="submenu"]:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus-circle_active.svg);
+}
+.orizzontalemenu_new .menu_element_actions > div[data-action="delete"]:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/trash_active.svg);
+}
+/*
+.orizzontalemenu_new .menu_element_actions > div:after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: calc(100% - 8px);
+    left: 0;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: .5px;
+    text-align: center;
+    background: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+    color: #0c121e;
+    white-space: initial;
+}
+.orizzontalemenu_new .menu_element_actions > div:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+*/
+/*hide plus*/
+.orizzontalemenu_new .btn.hide_plus_add .menu_element_actions > div[data-action="submenu"] {
+    display: none;
+}
+.orizzontalemenu_new .btn.hide_plus_add > .menu_element_actions {
+    width: 120px;
+    left: calc(50% - 60px);
+}
+
+
+
+.orizzontalemenu_new .layout_subnav {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    cursor: auto;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content {
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    align-items: stretch;
+}
+.orizzontalemenu_new .layout_subnav[data-size="full"] .subnav_content {
+    width: 100%;
+}
+.orizzontalemenu_new .layout_subnav[data-size="container"] .subnav_content {
+    width: 100%;
+    max-width: 1024px;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+    color: white;
+    position: relative;
+}
+.orizzontalemenu_new .sub_pulsantiera.showSubElements .layout_subnav .subnav_content > div:after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 65px);
+    border: 1px dashed #e5e5e5;
+    box-sizing: border-box;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+}
+.orizzontalemenu_new .sub_pulsantiera.showSubElements .layout_subnav .subnav_content > div:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+.orizzontalemenu_new .layout_subnav[data-columns="1"] .subnav_content > div {
+    width: 100%;
+    max-width: 520px;
+}
+.orizzontalemenu_new .layout_subnav[data-columns="2"] .subnav_content > div {
+    width: calc(100% / 2);
+}
+.orizzontalemenu_new .layout_subnav[data-columns="3"] .subnav_content > div {
+    width: calc(100% / 3);
+}
+.orizzontalemenu_new .layout_subnav[data-columns="4"] .subnav_content > div {
+    width: calc(100% / 4);
+}
+.orizzontalemenu_new .layout_subnav[data-columns="5"] .subnav_content > div {
+    width: calc(100% / 5);
+}
+.orizzontalemenu_new .layout_subnav[data-columns="6"] .subnav_content > div {
+    width: calc(100% / 6);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element {
+    position: absolute;
+    right: calc(50% - 16px);
+    bottom: 16px;
+    width: 32px;
+    height: 32px;
+    z-index: 4;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column,
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column,
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .icon_plus {
+    position: absolute;
+    right: -16px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: white;
+    transition: .2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .icon_plus {
+    right: 0;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column {
+    display: none;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div:last-child .add_column {
+    display: block;
+}
+
+
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column {
+    display: none;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div:last-child .delete_column {
+    display: block;
+}
+
+
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .icon_plus {
+    right: 0;
+    top: 0;
+    background-color: #0071f1;
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus-circle-white.svg);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column {
+    bottom: calc(100% - 52px);
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/trash.svg);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column {
+    top: calc(50% - 16px);
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus-circle.svg);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/trash_active.svg);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column:hover {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/plus-circle_active.svg);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div:hover .delete_column,
+.orizzontalemenu_new .layout_subnav .subnav_content > div:hover .add_column,
+.orizzontalemenu_new .layout_subnav .subnav_content > div:hover .add_ul_element .icon_plus {
+    opacity: 1;
+    visibility: visible;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column:after,
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column:after {
+    content: attr(data-label);
+    position: absolute;
+    top: 0;
+    left: calc(100% - 6px);
+    width: auto;
+    padding: 0 12px;
+    font-size: 11px;
+    line-height: 32px;
+    letter-spacing: .5px;
+    text-align: center;
+    background: white;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left center;
+    color: #0c121e;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .delete_column:hover:after,
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_column:hover:after {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleX(1);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .elements_list {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: white;
+    box-shadow: 0px 4px 73px 0px rgba(23, 30, 40, 0.23);
+    border-radius: 10px;
+    width: 160px;
+    top: calc(100% + 8px);
+    left: calc(50% - 80px);
+    z-index: 1;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .elements_list:after {
+    content: '';
+    position: absolute;
+    top: -19px;
+    left: 0;
+    width: 160px;
+    height: 24px;
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/round.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: bottom center;
+    z-index: 1;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .elements_list > div {
+    float: left;
+    width: 100%;
+    line-height: 1;
+    font-size: 12px;
+    letter-spacing: .5px;
+    padding: 6px 12px;
+    color: #808a96;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element .elements_list > div:hover {
+    color: #0c121e;;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .add_ul_element:hover .elements_list {
+    display: block;
+}
+
+
+.orizzontalemenu_new .layout_subnav .subnav_content > div > ul { 
+    padding: 72px 0;
+    display: inline-block;
+    width: 100%;
+    min-height: 168px;
+    position: relative;
+    z-index: 2;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub {
+    position: relative;
+    cursor: pointer;
+    margin: 6px 0;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub .testo {
+    white-space: normal;
+    user-select: none !important;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub .img_card {
+    float: left;
+    width: 100%;
+}
+
+
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.title,
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .subtitle {
+    font-size: 13px;
+    color: #777;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container .card_image_actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container:hover .card_image_actions {
+    opacity: 1;
+    visibility: visible;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container .card_image_actions > div {
+    position: absolute;
+    left: calc(50% - 100px);
+    width: 200px;
+    cursor: pointer;
+    background-color: #0071f1;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    color: white;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: right 10px top 7px;
+    opacity: .8;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container .card_image_actions > div:hover {
+    opacity: 1;
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container .card_image_actions > div[data-action="media"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/images.svg);
+    bottom: calc(50% - 36px);
+}
+.orizzontalemenu_new .layout_subnav .subnav_content > div .new_btn_sub.card .card_image_container .card_image_actions > div[data-action="file"] {
+    background-image: url(//www.flazio.com/componenti/scrittori/orizzontalemenu/img/image-upload.svg);
+    top: calc(50% - 36px);
+}
+
+
+
+/*
+*   opended submenu
+*/
+.orizzontalemenu_new .btn .sub_pulsantiera.showSubElements {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: scaleX(1) !important;
+    transform: scaleY(1) !important;
+}
+
+
+
+.orizzontalemenu_new .new_btn_sub[data-l="no"] {
+    cursor:default !important;
+}
+
+

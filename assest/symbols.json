@@ -1,0 +1,160 @@
+{
+    "animations": ["anim-1", "anim-2", "anim-3", "anim-4"],
+    "symbols": {
+        "facebook": {
+            "s": "&#xe808;",
+            "d": true,
+            "t":"Facebook URL",
+            "content" : "url"
+        },
+        "twitter": {
+            "s": "&#xe804;",
+            "d": true,
+            "t":"Twitter URL",
+            "content" : "url"
+        },
+        "instagram": {
+            "s": "&#xe816;",
+            "d": false,
+            "t":"Instagram URL",
+            "content" : "url"
+        },
+        "linkedin": {
+            "s": "&#xe803;",
+            "d": true,
+            "t":"LinkedIn URL",
+            "content" : "url"
+        },
+        "tiktok": {
+            "s": "&#xe803;",
+            "d": true,
+            "t":"TikTok URL",
+            "content" : "tiktok"
+        },        
+        "twitch": {
+            "s": "&#xe803;",
+            "d": true,
+            "t":"Twitch URL",
+            "content" : "twitch"
+        },
+        "youtube": {
+            "s": "&#xe806;",
+            "d": true,
+            "t":"YouTube URL",
+            "content" : "url"
+        },
+        "vimeo": {
+            "s": "&#xe805;",
+            "d": true,
+            "t":"Vimeo URL",
+            "content" : "url"
+        },
+        "skype": {
+            "s": "&#xe80b;",
+            "d": true,
+            "t":"Skype URL",
+            "prefix":"skype:",
+            "content" : "skype"
+        },
+        "email": {
+            "s": "&#xe807;",
+            "d": true,
+            "t":"E-mail Address",
+            "prefix":"mailto:",
+            "content" : "mail"
+        },
+        "phone": {
+            "s": "&#xe807;",
+            "d": true,
+            "t":"Phone Number",
+            "prefix":"tel:+",
+            "content" : "phone"
+        },
+        "whatsapp": {
+            "s": "&#xe807;",
+            "d": true,
+            "t":"WhatsApp Number",
+            "prefix":"+",
+            "content" : "wa"
+        },
+        "messenger": {
+            "s": "&#xe807;",
+            "d": true,
+            "t":"Messenger URL",
+            "content" : "msg"
+        },
+        "telegram": {
+            "s": "&#xe807;",
+            "d": true,
+            "t":"Telegram Channel",
+            "content" : "tgr"
+        },        
+        "tripadvisor": {
+            "s": "&#xe802;",
+            "d": false,
+            "t":"Tripadvisor URL",
+            "prefix":"",
+            "content" : "url"
+        },
+        "pinterest": {
+            "s": "&#xe801;",
+            "d": true,
+            "t":"Pinterest URL",
+            "content" : "url"
+        },
+        "tumblr": {
+            "s": "&#xe809;",
+            "d": true,
+            "t":"Tumblr URL",
+            "content" : "url"
+        },
+        "fivehundredpx": {
+            "s": "&#xe80d;",
+            "d": false,
+            "t":"500px URL",
+            "content" : "url"
+        },
+        "foursquare": {
+            "s": "&#xe80e;",
+            "d": false,
+            "t":"Foursquare URL",
+            "content" : "url"
+        },
+        "flickr": {
+            "s": "&#xe811;",
+            "d": false,
+            "t":"Flickr URL",
+            "content" : "url"
+        },
+        "evernote": {
+            "s": "&#xe812;",
+            "d": false,
+            "t":"Evernote URL",
+            "content" : "url"
+        },
+        "dribbble": {
+            "s": "&#xe813;",
+            "d": false,
+            "t":"Dribble URL",
+            "content" : "url"
+        },
+        "soundcloud": {
+            "s": "&#xe815;",
+            "d": false,
+            "t":"SoudCloud URL",
+            "content" : "url"
+        },
+        "spotify": {
+            "s": "&#xe815;",
+            "d": false,
+            "t":"Spotify URL",
+            "content" : "url"
+        },
+        "discord": {
+            "s": "&#xe815;",
+            "d": false,
+            "t":"Discord",
+            "content" : "url"
+        }
+    }
+}
